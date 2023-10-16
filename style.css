@@ -1,0 +1,48 @@
+.icons{
+    margin: 5px;
+    height: 30px;
+}
+
+.title{
+    font-family: 'Pixelify Sans', sans-serif;
+    margin-right: 10px;
+}
+
+.word{
+    font-family: 'Merriweather', serif;
+}
+
+.detail{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+html{
+    background-color: rgb(56, 83, 108);
+}
+
+.Email{
+    font-family: 'Merriweather', serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Zilla Slab', serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Zilla Slab', serif;
+}
+
+.extitle{
+    font-family: 'Young Serif', serif;
+
+}
+
+@media only screen and (max-width: 480px){
+    #homePagePic{
+        width: 300px;
+    }
+
+}
