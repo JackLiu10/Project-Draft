@@ -13,33 +13,102 @@
 
 <body>
     <!-- Navbar -->
+  <section id="navBar">
     <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <img src="./icons/backpack2.svg" alt="backpack" class="icons">
-            <span class="fs-4 title">TMath Clubs</span>
-          </a>
+      <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
+        <a href="#" class="d-flex align-items-center mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img src="./icons/backpack2.svg" alt="backpack" class="icons">
+          <span class="fs-4 title">Bananote</span>
+        </a>
     
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="./subweb/sub.html" class="nav-link">Features</a></li>
-            <li class="nav-item"><a href="./subweb/about.html" class="nav-link">About</a></li>
-          </ul>
-        </header>
+        <ul class="nav">
+          <li class="nav-item "><a href="#" class="nav-link link-body-emphasis" aria-current="page">Home</a></li>
+          <li class="nav-item dark"><a href="./subweb/about.html" class="nav-link link-body-emphasis">About</a></li>
+        </ul>
+      </header>
     </div>
-
+  </section>
     <!-- hero -->
-    <div class="container col-xxl-8 px-4 py-5">
+  <section class="gradient-background">
+    <div class="container col-xxl-8 px-4 py-3">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
+          <div class="col-10 col-sm-8 col-lg-6 paddingForHeroimg">
             <img src="./images/Screen-Shot-2020-08-21-at-3.55.42-PM.png" alt="group study" id="homePagePic" width="420px">
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 paddingForHerotxt">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 word">Title</h1>
             <p class="lead word">Discriptions</p>
             
           </div>
         </div>
       </div>
+    </section>
+
+    <!-- subjects -->
+    <div class="container mt-5 mb-2 text-center word">
+      <h2>Subjects select</h2>
+    </div>
+
+    <div class="container py-3">
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <!-- Math -->
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+           <div class="card-header py-3">
+             <h4 class="my-0 fw-normal word">Math</h4>
+            </div>
+            <div class="card-body">
+            
+              <a href="./Math-resources/unitSelectMath.html"><button type="button" class="w-10 btn btn-md btn-dark my-4">Note</button></a>
+              <a><button type="button" class="w-10 btn btn-md btn-outline-dark">Questions</button></a>
+            </div>
+          </div>
+        </div>
+
+        <!--Physics-->
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+           <div class="card-header py-3">
+             <h4 class="my-0 fw-normal word">Physics</h4>
+            </div>
+            <div class="card-body">
+
+              <a href="./Physics-resources/unitSelectPhy.html"><button type="button" class="w-10 btn btn-md btn-dark my-4">Note</button></a>
+              <button type="button" class="w-10 btn btn-md btn-outline-dark">Questions</button>
+            </div>
+          </div>
+        </div>
+
+         <!--Economics-->
+         <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+           <div class="card-header py-3">
+             <h4 class="my-0 fw-normal word">Economics</h4>
+            </div>
+            <div class="card-body">
+
+              <a href="./Eco-resources/unitSelectEco.html"><button type="button" class="w-10 btn btn-md btn-dark my-4">Note</button></a>
+              <button type="button" class="w-10 btn btn-md btn-outline-dark">Questions</button>
+            </div>
+          </div>
+        </div>
+
+         <!--Bio-->
+         <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+           <div class="card-header py-3">
+             <h4 class="my-0 fw-normal word">Biology</h4>
+            </div>
+            <div class="card-body">
+
+              <a href="./bio_resources/unitSelectBio.html"><button type="button" class="w-10 btn btn-md btn-dark my-4">Note</button></a>
+              <button type="button" class="w-10 btn btn-md btn-outline-dark">Questions</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
 </body>
 </html>
